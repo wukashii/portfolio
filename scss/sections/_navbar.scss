@@ -1,0 +1,61 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu {
+    background: $white;
+    li {
+        padding: 0 0.7rem;
+
+        a {
+            color: $black!important;
+            opacity: 0.6;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            font-weight: 500;
+
+            &:hover {
+                opacity: 1;
+            }
+
+        }
+    }
+
+    .navbar-toggler {
+        border: none!important;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        color: $light-grey;
+        font-size: 0.8rem;
+        font-weight: 700;
+
+        i {
+            font-size: 1rem;
+            margin-right: 0.3rem;
+        }
+    }
+
+}
+
+
+
+
+.navbar {
+    button {
+        padding: 0.5rem 1.3rem;
+
+        span {
+            margin-left: 0.5rem;
+        }
+
+
+    }
+    &-brand {
+        color: $black!important;
+        img {
+            width: 7rem;
+        }
+    }
+}

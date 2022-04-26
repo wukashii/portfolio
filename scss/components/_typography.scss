@@ -1,0 +1,54 @@
+@use '../custom' as *;
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+
+
+.title {
+    display: block;
+    margin-bottom: 1rem;
+
+    &--first-intro {
+        display: block;
+        font-weight: 300;
+        color: $black;
+        margin-bottom: .5rem;
+    }
+
+    &--second-intro {
+        display: block;
+        font-weight: 700;
+        color: $black;
+        margin-bottom: .5rem;
+    }
+
+    &--description {
+        display: block;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        color: $black;
+        margin-bottom: 2rem;
+    }
+
+
+}
+

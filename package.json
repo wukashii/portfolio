@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-v5",
+  "version": "1.0.0",
+  "description": "bootstrap sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass"
+  ],
+  "author": "wukashi",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.3.5",
+    "bootstrap": "^5.1.1",
+    "postcss-cli": "^8.3.1",
+    "scrollreveal": "^4.0.9"
+  }
+}

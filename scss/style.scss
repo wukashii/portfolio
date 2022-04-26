@@ -1,0 +1,23 @@
+// npm run compile:sass
+
+@use 'custom';
+@import 'animate.css';
+
+
+// import SECTIONS
+@import './sections/about';
+@import './sections/skills';
+
+@import './sections/footer';
+@import './sections/contact';
+@import './sections/intro-section';
+@import './sections/navbar';
+@import './sections/portfolio';
+@import './sections/testimonials';
+
+// import COMPONENTS
+
+@import './components/buttons';
+@import './components/mixins';
+@import './components/typography';
+@import './components/animations';
